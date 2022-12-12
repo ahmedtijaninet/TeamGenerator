@@ -1,5 +1,5 @@
 # Team Generator
-This script generates fake team names and skill levels, then sorts the teams by skill level in descending order. The teams are then divided into 4 groups, with each group containing an equal number of teams. The group names and team names are then printed out and saved to a CSV file. The CSV file is then transposed and saved to another CSV file.
+his script reads a csv file called 'teams.csv' and creates a list of tuples containing the team name and score. The list is then sorted in descending order by score. The teams are then evenly distributed into a specified number of team lists. The team lists are then printed and written to a new csv file called 'teams_out.csv'. The csv file is then transposed and written to another csv file called 'teams_out_transpose.csv'.
 
 ## Installation
 
@@ -14,4 +14,3 @@ To run the script, simply run the following command:
 ```sh
 python team_generator.py
 ```
-The script will generate the teams, print them out, and save them to CSV files. The resulting CSV files will be teams_out.csv and teams_out_transpose.csv.
